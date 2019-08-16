@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using ModelMaintainer.Mapping;
-using ModelMaintainer.Mapping.ComponentHierarchy;
+using ArdoqFluentModels.Mapping;
+using ArdoqFluentModels.Mapping.ComponentHierarchy;
 using ModelMaintainer.Tests.Model;
 using Xunit;
 

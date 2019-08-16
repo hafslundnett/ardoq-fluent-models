@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Ardoq.Models;
-using ModelMaintainer.Search;
+using ArdoqFluentModels.Search;
 using Xunit;
 
 namespace ModelMaintainer.Tests.Search

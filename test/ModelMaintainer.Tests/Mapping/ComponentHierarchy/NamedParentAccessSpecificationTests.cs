@@ -1,6 +1,5 @@
 ﻿using System;
-using ModelMaintainer.Mapping;
-using ModelMaintainer.Mapping.ComponentHierarchy;
+using ArdoqFluentModels.Mapping.ComponentHierarchy;
 using ModelMaintainer.Tests.Model;
 using Xunit;
 

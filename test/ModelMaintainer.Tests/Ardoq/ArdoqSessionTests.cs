@@ -2,8 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Ardoq.Models;
-using ModelMaintainer.Ardoq;
-using ModelMaintainer.Mapping;
+using ArdoqFluentModels.Ardoq;
 using Moq;
 using Xunit;
 

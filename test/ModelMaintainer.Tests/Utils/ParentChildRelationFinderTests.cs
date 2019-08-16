@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ModelMaintainer.Mapping;
-using ModelMaintainer.Mapping.ComponentHierarchy;
+using ArdoqFluentModels;
+using ArdoqFluentModels.Mapping;
+using ArdoqFluentModels.Mapping.ComponentHierarchy;
+using ArdoqFluentModels.Utils;
 using ModelMaintainer.Tests.Model;
-using ModelMaintainer.Utils;
 using Xunit;
 
 namespace ModelMaintainer.Tests.Utils

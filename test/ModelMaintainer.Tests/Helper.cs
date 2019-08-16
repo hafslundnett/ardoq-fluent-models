@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Ardoq.Models;
-using ModelMaintainer.Ardoq;
-using ModelMaintainer.Mapping;
-using ModelMaintainer.Mapping.ComponentHierarchy;
+using ArdoqFluentModels.Ardoq;
+using ArdoqFluentModels.Mapping;
+using ArdoqFluentModels.Mapping.ComponentHierarchy;
 using ModelMaintainer.Tests.Maintainence.Fakes;
 using ModelMaintainer.Tests.Model;
 

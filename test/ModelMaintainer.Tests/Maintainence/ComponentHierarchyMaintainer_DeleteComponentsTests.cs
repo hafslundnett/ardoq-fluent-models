@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using Ardoq.Models;
-using ModelMaintainer.Ardoq;
-using ModelMaintainer.Maintainence;
-using ModelMaintainer.Mapping;
-using ModelMaintainer.Mapping.ComponentHierarchy;
+using ArdoqFluentModels.Ardoq;
+using ArdoqFluentModels.Maintainence;
+using ArdoqFluentModels.Mapping;
+using ArdoqFluentModels.Mapping.ComponentHierarchy;
+using ArdoqFluentModels.Utils;
 using ModelMaintainer.Tests.Model;
-using ModelMaintainer.Utils;
 using Moq;
 using Xunit;
 

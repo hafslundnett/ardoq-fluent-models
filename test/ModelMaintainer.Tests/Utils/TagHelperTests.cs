@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using ModelMaintainer.Utils;
+using ArdoqFluentModels.Utils;
 using Xunit;
 
 namespace ModelMaintainer.Tests.Utils

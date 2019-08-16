@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Ardoq;
 using Ardoq.Models;
-using ModelMaintainer.Ardoq;
+using ArdoqFluentModels.Ardoq;
 using Moq;
 using Xunit;
 

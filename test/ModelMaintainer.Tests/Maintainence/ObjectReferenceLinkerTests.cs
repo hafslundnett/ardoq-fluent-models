@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using Ardoq.Models;
-using ModelMaintainer.Ardoq;
-using ModelMaintainer.Maintainence;
-using ModelMaintainer.Mapping;
+using ArdoqFluentModels;
+using ArdoqFluentModels.Ardoq;
+using ArdoqFluentModels.Maintainence;
+using ArdoqFluentModels.Mapping;
 using ModelMaintainer.Tests.Model;
 using Moq;
 using Xunit;

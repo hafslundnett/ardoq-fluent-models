@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using ArdoqFluentModels;
+using System.Collections.Generic;
 using System.Linq;
-using ModelMaintainer.Mapping;
 
 namespace ModelMaintainer.Tests.Model
 {

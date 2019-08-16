@@ -1,6 +1,6 @@
-﻿using System.IO;
+﻿using ArdoqFluentModels.Utils;
+using System.IO;
 using System.Linq;
-using ModelMaintainer.Utils;
 using Xunit;
 
 namespace ModelMaintainer.Tests.Utils

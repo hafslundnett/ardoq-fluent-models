@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 using Ardoq;
 using Ardoq.Models;
 using Ardoq.Service.Interface;
-using ModelMaintainer.Ardoq;
-using ModelMaintainer.Search;
+using ArdoqFluentModels;
+using ArdoqFluentModels.Ardoq;
+using ArdoqFluentModels.Search;
 using Moq;
 using Xunit;
 

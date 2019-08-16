@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using ModelMaintainer.Mapping;
+using ArdoqFluentModels.Mapping;
 using ModelMaintainer.Tests.Model;
 using Xunit;
 

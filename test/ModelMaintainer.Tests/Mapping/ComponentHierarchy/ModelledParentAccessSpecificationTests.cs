@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ModelMaintainer.Ardoq;
-using ModelMaintainer.Mapping;
-using ModelMaintainer.Mapping.ComponentHierarchy;
+using ArdoqFluentModels.Mapping.ComponentHierarchy;
 using ModelMaintainer.Tests.Model;
 using Moq;
 using Xunit;

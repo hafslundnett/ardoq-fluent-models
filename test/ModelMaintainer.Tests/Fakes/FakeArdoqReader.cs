@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Ardoq.Models;
-using ModelMaintainer.Ardoq;
+using ArdoqFluentModels.Ardoq;
 using Moq;
 
 namespace ModelMaintainer.Tests.Maintainence.Fakes

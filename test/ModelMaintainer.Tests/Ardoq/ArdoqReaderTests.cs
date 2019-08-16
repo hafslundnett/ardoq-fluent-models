@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using ModelMaintainer.Ardoq;
+using ArdoqFluentModels;
+using ArdoqFluentModels.Ardoq;
 using Newtonsoft.Json;
 using Xunit;
 

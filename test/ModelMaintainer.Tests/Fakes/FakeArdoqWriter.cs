@@ -4,7 +4,7 @@ using System.Linq;
 using System.Collections;
 using System.Threading.Tasks;
 using Ardoq.Models;
-using ModelMaintainer.Ardoq;
+using ArdoqFluentModels.Ardoq;
 
 namespace ModelMaintainer.Tests.Maintainence.Fakes
 {

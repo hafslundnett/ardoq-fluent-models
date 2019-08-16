@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using Ardoq.Models;
-using ModelMaintainer.Maintainence;
-using ModelMaintainer.Mapping;
+using ArdoqFluentModels.Maintainence;
+using ArdoqFluentModels.Mapping;
+using ArdoqFluentModels.Utils;
 using ModelMaintainer.Tests.Model;
-using ModelMaintainer.Utils;
 using Xunit;
 
 namespace ModelMaintainer.Tests.Maintainence
