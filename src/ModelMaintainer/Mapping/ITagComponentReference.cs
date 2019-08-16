@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ModelMaintainer.Mapping
+namespace ArdoqFluentModels.Mapping
 {
     public interface ITagComponentReference
     {

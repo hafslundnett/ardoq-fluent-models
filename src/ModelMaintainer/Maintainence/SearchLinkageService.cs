@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using ModelMaintainer.Ardoq;
-using ModelMaintainer.Mapping;
-using ModelMaintainer.Search;
+using ArdoqFluentModels.Ardoq;
+using ArdoqFluentModels.Mapping;
+using ArdoqFluentModels.Search;
 
-namespace ModelMaintainer.Maintainence
+
+namespace ArdoqFluentModels.Maintainence
 {
     public class SearchLinkageService
     {

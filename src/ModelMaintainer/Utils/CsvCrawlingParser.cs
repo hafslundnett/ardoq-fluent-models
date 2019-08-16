@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ModelMaintainer.Utils
+namespace ArdoqFluentModels.Utils
 {
     public class CsvCrawlingParser
     {

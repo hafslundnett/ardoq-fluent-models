@@ -1,10 +1,10 @@
-﻿using ModelMaintainer.Mapping.ComponentHierarchy;
+﻿using ArdoqFluentModels.Mapping.ComponentHierarchy;
+using ArdoqFluentModels.Search;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using ModelMaintainer.Search;
 
-namespace ModelMaintainer.Mapping
+namespace ArdoqFluentModels.Mapping
 {
     public interface IBuiltComponentMapping
     {

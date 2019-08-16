@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Ardoq.Models;
-using ModelMaintainer.Ardoq;
-using ModelMaintainer.Mapping;
+using ArdoqFluentModels.Ardoq;
+using ArdoqFluentModels.Mapping;
 
-namespace ModelMaintainer.Maintainence
+namespace ArdoqFluentModels.Maintainence
 {
     public class ExternalLinkageService : IExternalLinkageService
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ModelMaintainer.Mapping
+namespace ArdoqFluentModels.Mapping
 {
     public interface ITagComponentReferenceSpecification<TSource> : ITagComponentReference
     {

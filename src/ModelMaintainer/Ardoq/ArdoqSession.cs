@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using Ardoq.Models;
-using ModelMaintainer.Mapping;
+using ArdoqFluentModels.Mapping;
 
-namespace ModelMaintainer.Ardoq
+namespace ArdoqFluentModels.Ardoq
 {
     public class ArdoqSession : IArdoqSession
     {

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using Ardoq.Models;
-using ModelMaintainer.Mapping;
+using ArdoqFluentModels.Mapping;
 
-namespace ModelMaintainer.Ardoq
+namespace ArdoqFluentModels.Ardoq
 {
     public interface IArdoqSession
     {

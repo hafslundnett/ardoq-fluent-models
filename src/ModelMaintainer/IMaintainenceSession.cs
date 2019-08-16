@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace ModelMaintainer
+namespace ArdoqFluentModels
 {
     public interface IMaintainenceSession
     {

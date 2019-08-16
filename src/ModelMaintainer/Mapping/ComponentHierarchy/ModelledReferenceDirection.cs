@@ -1,4 +1,4 @@
-﻿namespace ModelMaintainer.Mapping.ComponentHierarchy
+﻿namespace ArdoqFluentModels.Mapping.ComponentHierarchy
 {
     public enum ModelledReferenceDirection
     {

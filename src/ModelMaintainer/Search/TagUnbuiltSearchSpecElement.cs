@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
-namespace ModelMaintainer.Search
+namespace ArdoqFluentModels.Search
 {
     public class TagUnbuiltSearchSpecElement<TSource> : IUnbuiltSearchSpecElement
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Ardoq.Models;
 
-namespace ModelMaintainer.Search
+namespace ArdoqFluentModels.Search
 {
     public class ComponentTypeAndFieldSearchSpecElement : SearchSpecElementBase
     {

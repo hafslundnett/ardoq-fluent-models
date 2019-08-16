@@ -1,4 +1,4 @@
-﻿namespace ModelMaintainer.Search
+﻿namespace ArdoqFluentModels.Search
 {
     public enum SearchMethodType
     {

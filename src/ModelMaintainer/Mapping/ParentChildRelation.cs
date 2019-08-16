@@ -1,4 +1,4 @@
-﻿namespace ModelMaintainer.Mapping
+﻿namespace ArdoqFluentModels.Mapping
 {
     public class ParentChildRelation
     {

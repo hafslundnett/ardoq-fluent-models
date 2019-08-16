@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Ardoq;
 using Ardoq.Models;
 
-namespace ModelMaintainer.Ardoq
+namespace ArdoqFluentModels.Ardoq
 {
     public class ArdoqReader : IArdoqReader
     {

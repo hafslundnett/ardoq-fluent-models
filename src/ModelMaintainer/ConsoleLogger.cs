@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ModelMaintainer
+namespace ArdoqFluentModels
 {
     public class ConsoleLogger : ILogger
     {

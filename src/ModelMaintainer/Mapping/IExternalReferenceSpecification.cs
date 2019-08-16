@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ModelMaintainer.Mapping
+namespace ArdoqFluentModels.Mapping
 {
     public interface IExternalReferenceSpecification
     {

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using ModelMaintainer.Ardoq;
-using ModelMaintainer.Mapping;
+using ArdoqFluentModels.Ardoq;
+using ArdoqFluentModels.Mapping;
 
-namespace ModelMaintainer.Maintainence
+namespace ArdoqFluentModels.Maintainence
 {
     public interface IExternalLinkageService
     {

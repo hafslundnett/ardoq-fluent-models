@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Net.Http;
 using Ardoq;
 using System.Linq;
-using ModelMaintainer.Ardoq;
-using ModelMaintainer.Maintainence;
-using ModelMaintainer.Mapping;
+using ArdoqFluentModels.Mapping;
+using ArdoqFluentModels.Ardoq;
+using ArdoqFluentModels.Maintainence;
 
-namespace ModelMaintainer
+namespace ArdoqFluentModels
 {
     public class ArdoqModelMappingBuilder : IModelAccessor
     {

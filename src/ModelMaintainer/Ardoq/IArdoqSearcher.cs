@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Ardoq.Models;
-using ModelMaintainer.Search;
+using ArdoqFluentModels.Search;
 
-namespace ModelMaintainer.Ardoq
+namespace ArdoqFluentModels.Ardoq
 {
     public interface IArdoqSearcher
     {

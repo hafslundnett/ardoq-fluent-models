@@ -2,7 +2,7 @@
 using System.Linq;
 using Ardoq.Models;
 
-namespace ModelMaintainer.Search
+namespace ArdoqFluentModels.Search
 {
     public class TagSearchSpecElement : SearchSpecElementBase
     {

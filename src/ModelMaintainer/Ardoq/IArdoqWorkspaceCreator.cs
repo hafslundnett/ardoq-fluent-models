@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Ardoq.Models;
 
-namespace ModelMaintainer.Ardoq
+namespace ArdoqFluentModels.Ardoq
 {
     public interface IArdoqWorkspaceCreator
     {

@@ -1,9 +1,9 @@
-﻿using System;
+﻿using ArdoqFluentModels.Mapping;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using ModelMaintainer.Mapping;
 
-namespace ModelMaintainer.Utils
+namespace ArdoqFluentModels.Utils
 {
     public class ParentChildRelationHierarchyBuilder
     {

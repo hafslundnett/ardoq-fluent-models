@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ModelMaintainer.Ardoq
+namespace ArdoqFluentModels.Ardoq
 {
     public interface IArdoqModel
     {

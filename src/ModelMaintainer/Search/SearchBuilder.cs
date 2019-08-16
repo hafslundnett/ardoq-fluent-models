@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ModelMaintainer.Search
+namespace ArdoqFluentModels.Search
 {
     public class SearchBuilder<TSource> : ISearchBuilder
     {

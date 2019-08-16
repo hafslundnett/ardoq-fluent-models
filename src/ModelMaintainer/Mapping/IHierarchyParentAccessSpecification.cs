@@ -1,8 +1,8 @@
-﻿using System;
+﻿using ArdoqFluentModels.Mapping.ComponentHierarchy;
+using System;
 using System.Collections.Generic;
-using ModelMaintainer.Mapping.ComponentHierarchy;
 
-namespace ModelMaintainer.Mapping
+namespace ArdoqFluentModels.Mapping
 {
     public interface IHierarchyReferenceAccessSpecification
     {

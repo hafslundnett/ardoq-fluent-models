@@ -1,10 +1,10 @@
-﻿using System;
+﻿using ArdoqFluentModels.Mapping;
+using ArdoqFluentModels.Mapping.ComponentHierarchy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using ModelMaintainer.Mapping;
-using ModelMaintainer.Mapping.ComponentHierarchy;
 
-namespace ModelMaintainer.Utils
+namespace ArdoqFluentModels.Utils
 {
     public class ParentChildRelationFinder
     {

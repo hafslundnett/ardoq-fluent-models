@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ModelMaintainer
+namespace ArdoqFluentModels
 {
     public interface ISourceModelProvider
     {

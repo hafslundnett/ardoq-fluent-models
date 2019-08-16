@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace ModelMaintainer.Mapping.ComponentHierarchy
+namespace ArdoqFluentModels.Mapping.ComponentHierarchy
 {
     public class ModelledReferenceAccessSpecification<TSource> : IHierarchyReferenceAccessSpecification
     {

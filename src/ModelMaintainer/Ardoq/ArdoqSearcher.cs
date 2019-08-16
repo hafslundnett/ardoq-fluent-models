@@ -3,9 +3,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Ardoq;
 using Ardoq.Models;
-using ModelMaintainer.Search;
+using ArdoqFluentModels.Search;
 
-namespace ModelMaintainer.Ardoq
+namespace ArdoqFluentModels.Ardoq
 {
     public class ArdoqSearcher : IArdoqSearcher
     {

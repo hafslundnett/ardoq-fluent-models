@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Ardoq.Models;
-using ModelMaintainer.Ardoq;
-using ModelMaintainer.Mapping;
-using ModelMaintainer.Utils;
+using ArdoqFluentModels.Ardoq;
+using ArdoqFluentModels.Mapping;
+using ArdoqFluentModels.Utils;
 
-namespace ModelMaintainer.Maintainence
+namespace ArdoqFluentModels.Maintainence
 {
     public class MaintainenceSession : IMaintainenceSession
     {

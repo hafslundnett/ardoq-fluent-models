@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using ModelMaintainer.Mapping.ComponentHierarchy;
-using ModelMaintainer.Search;
+using ArdoqFluentModels.Mapping.ComponentHierarchy;
+using ArdoqFluentModels.Search;
 
-namespace ModelMaintainer.Mapping
+namespace ArdoqFluentModels.Mapping
 {
     public class ComponentMapping<TSource> : IComponentMapping<TSource>
     {

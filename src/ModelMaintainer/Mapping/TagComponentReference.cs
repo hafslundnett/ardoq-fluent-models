@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ModelMaintainer.Mapping
+namespace ArdoqFluentModels.Mapping
 {
     public class TagComponentReference<TSource> : ITagComponentReferenceSpecification<TSource>
     {
