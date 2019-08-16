@@ -33,16 +33,41 @@ var folder = "<ardoq-folder>";
 
 // Create a builder
 var builder =
-    new ArdoqModelMappingBuilder(ardoqUrl, ardoqToken, ardoqOrganization)
-        .WithWorkspaceNamed(workspace)
-        .WithFolderNamed(folder);
+    new ArdoqModelMappingBuilder(config["Ardoq:url"], config["Ardoq:token"], config["Ardoq:organization"])
+        .WithWorkspaceNamed(config["Ardoq:workspaceName"])
+        .WithFolderNamed(config["Ardoq:folderName"])
+        .WithTemplate(config["Ardoq:templateName"]);
 
 // Add your structured model. This must match the model in Ardoq. 
-builder.AddComponentMapping<MyComponent>("MyComponent")
-    .WithKey(s => s.MyKey);
+// Subscription
+builder.AddComponentMapping<Subscription>("Subscription")
+    .WithKey(s => s.Name)
+    .WithModelledHierarchyReference(s => s.ResourceGroups, ModelledReferenceDirection.Parent);
+
+// Resource Group
+builder.AddComponentMapping<ResourceGroup>("Resource group")
+    .WithKey(rg => rg.Name)
+    .WithTags(rg => rg.Tags)
+    .WithModelledHierarchyReference(rg => rg.SqlServers, ModelledReferenceDirection.Parent)
+    .WithModelledHierarchyReference(rg => rg.StorageAccounts, ModelledReferenceDirection.Parent);
+
+// SQL
+builder.AddComponentMapping<SqlServer>("SQL server")
+    .WithKey(s => s.Name)
+    .WithModelledHierarchyReference(s => s.Databases, ModelledReferenceDirection.Parent);
+
+builder.AddComponentMapping<SqlDatabase>("SQL database")
+    .WithKey(s => s.Name)
+    .WithTags(s => s.Tags)
+    .WithField(s => s.Uri, "Uri");
+
+// Storage
+builder.AddComponentMapping<StorageAccount>("Storage account")
+    .WithTags(s => s.Tags)
+    .WithKey(s => s.Name);
 
 // Create the source model provider. This supplies the objects which will be documented in Ardoq. 
-ISourceModelProvider sourceModelProvider = new MySourceModelProvider();
+ISourceModelProvider sourceModelProvider = new AzureSourceModelProvider();
 
 // Build and run
 var session = builder.Build();
