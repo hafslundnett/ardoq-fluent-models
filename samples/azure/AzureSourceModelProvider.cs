@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using ArdoqFluentModels;
+using System.Collections.Generic;
 
 namespace ModelMaintainer.Samples.Azure
 {

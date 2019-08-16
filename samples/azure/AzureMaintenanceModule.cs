@@ -1,5 +1,6 @@
-﻿using ModelMaintainer.Samples.Azure.Model;
-using ModelMaintainer.Mapping.ComponentHierarchy;
+﻿using ArdoqFluentModels;
+using ArdoqFluentModels.Mapping.ComponentHierarchy;
+using ModelMaintainer.Samples.Azure.Model;
 
 namespace ModelMaintainer.Samples.Azure
 {

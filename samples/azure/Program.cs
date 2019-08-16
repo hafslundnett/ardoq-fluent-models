@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using ArdoqFluentModels;
+using System.Threading.Tasks;
 
 namespace ModelMaintainer.Samples.Azure
 {
