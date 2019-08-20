@@ -5,6 +5,7 @@
 
 trigger:
 - develop
+- release/*
 
 pool:
   vmImage: 'Ubuntu-16.04'
@@ -34,4 +35,4 @@ steps:
   inputs:
     command: test
     projects: $(testProject)
-    arguments: '--no-build --filter Category!=Integration'
+    arguments: '--no-build --filter Category!=Integration --collect "Code coverage"'
