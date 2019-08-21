@@ -32,10 +32,10 @@ steps:
     arguments: '--no-restore'
 
 - task: DotNetCoreCLI@2
-  displayName: 'dotnet pack'
+  displayName: 'dotnet pack $(Version)'
   inputs:
     command: pack
-    packagesToPack: src/Hafslund.Telemetry/Hafslund.Telemetry.csproj
+    packagesToPack: $(buildProject)
     versioningScheme: byEnvVar
     versionEnvVar: Version
 
