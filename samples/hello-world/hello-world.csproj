@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ArdoqFluentModels\ArdoqFluentModels.csproj" />
+  </ItemGroup>
+
 </Project>
