@@ -7,7 +7,7 @@ trigger:
 #   vmImage: 'Ubuntu-16.04'
 
 variables:
-  buildProject: 'src/ModelMaintainer/ModelMaintainer.csproj'
+  buildProject: 'src/ArdoqFluentModels/ArdoqFluentModels.csproj'
   # testProject: 'test/ModelMaintainer.Tests/ModelMaintainer.Tests.csproj'
   Version: $(Build.BuildNumber)
 
@@ -32,7 +32,7 @@ steps:
     arguments: '--no-restore'
 
 - task: DotNetCoreCLI@2
-  displayName: 'dotnet pack $(Version)'
+  displayName: 'dotnet pack'
   inputs:
     command: pack
     packagesToPack: $(buildProject)
