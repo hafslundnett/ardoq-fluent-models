@@ -11,7 +11,7 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 variables:
-  testProject: 'test/ModelMaintainer.Tests/ModelMaintainer.Tests.csproj'
+  testProject: 'test/ArdoqFluentModels.Tests/ArdoqFluentModels.Tests.csproj'
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
