@@ -3,8 +3,8 @@ trigger:
     include:
     - v*.*.*
 
-pool:
-  vmImage: 'Ubuntu-16.04'
+# pool:
+#   vmImage: 'Ubuntu-16.04'
 
 variables:
   buildProject: 'src/ModelMaintainer/ModelMaintainer.csproj'
@@ -12,6 +12,12 @@ variables:
   Version: $(Build.BuildNumber)
 
 steps:
+- powershell: |
+   $ver = $env:BUILD_SOURCEBRANCH.remove(0, 10)
+   Write-Host "##vso[task.setvariable variable=Version]$ver"
+  displayName: 'Update version to Tag'
+  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
+  
 - task: DotNetCoreCLI@2
   displayName: 'dotnet restore'
   inputs:
@@ -24,12 +30,6 @@ steps:
     command: build
     projects: $(buildProject)
     arguments: '--no-restore'
-
-- powershell: |
-   $ver = $env:BUILD_SOURCEBRANCH.remove(0, 10)
-   Write-Host "##vso[task.setvariable variable=Version]$ver"
-  displayName: 'Update version to Tag'
-  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
 
 - task: DotNetCoreCLI@2
   displayName: 'dotnet pack'
