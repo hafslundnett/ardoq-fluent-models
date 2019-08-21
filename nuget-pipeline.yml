@@ -6,6 +6,7 @@ trigger:
 variables:
   buildProject: 'src/ModelMaintainer/ModelMaintainer.csproj'
   testProject: 'test/ModelMaintainer.Tests/ModelMaintainer.Tests.csproj'
+  Version: $(Build.BuildNumber)
 
 steps:
 - task: DotNetCoreCLI@2
@@ -21,14 +22,19 @@ steps:
     projects: $(buildProject)
     arguments: '--no-restore'
 
+- powershell: |
+   $ver = $env:BUILD_SOURCEBRANCH.remove(0, 10)
+   Write-Host "##vso[task.setvariable variable=Version]$ver"
+  displayName: 'Update version to Tag'
+  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
+
 - task: DotNetCoreCLI@2
-  displayName: "dotnet pack"
+  displayName: 'dotnet pack'
   inputs:
-    command: 'pack'
-    arguments: '--configuration $(buildConfiguration)'
-    packagesToPack: $(buildProject)
-    nobuild: true
-    versioningScheme: 'off'
+    command: pack
+    packagesToPack: src/Hafslund.Telemetry/Hafslund.Telemetry.csproj
+    versioningScheme: byEnvVar
+    versionEnvVar: Version
 
 - task: NuGetCommand@2
   displayName: 'Publish NuGet package'
